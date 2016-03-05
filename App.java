@@ -7,10 +7,9 @@ public class App
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run()
 			{
-				JFrame frame = new JFrame("TJ's Text Editor");
-				frame.setSize(600, 500);
-				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-				frame.setVisible(true);
+				// Replacing with MainFrame.java and...
+				//JFrame frame = new JFrame("TJ's Text Editor");
+				new MainFrame();
 			}
 		});
 	}
